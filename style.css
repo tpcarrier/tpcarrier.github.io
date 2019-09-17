@@ -1280,7 +1280,7 @@ p.custom-field-class
 
     .grid-item
     {
-        border: 10px solid white;
+        border: 10px solid #e1ded4;
     }  
 
     .grid-sizer, .grid-item 
