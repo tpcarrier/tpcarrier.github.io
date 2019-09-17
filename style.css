@@ -1281,8 +1281,7 @@ p.custom-field-class
 
     .grid-item
     {
-        border: 2px solid white;
-        /* padding-left: 2px; */
+        border: 10px solid white;
     }  
 
     .grid-sizer, .grid-item 
@@ -1448,4 +1447,4 @@ p.custom-field-class
         font-size: 20px;
     }    
 
-}}
+}
