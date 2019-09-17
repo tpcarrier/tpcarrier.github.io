@@ -6,11 +6,11 @@ html
 body
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px; 	
+    font-size: 24px;
     line-height: 43px;
-    font-weight: 300;	
-    color: #222222;
-    background: #ECECEC;
+    font-weight: 300;
+    color: #8e8d8a;
+    background: #e1ded4;
 }
 
 body a
@@ -28,7 +28,7 @@ body a:hover
 .body-wrapper
 {
     margin: 30px;
-    background-color: #fff;
+    background-color: #e1ded4;
     position: relative;
 }
 
@@ -132,7 +132,7 @@ body a:hover
 {
     height: 4px;
     margin-bottom: 3px;
-    background-color: #c2c2c2;
+    background-color: #8e8d8a;
 }
 
 #toggle .third-menu-line
@@ -511,7 +511,7 @@ div.pp_default .pp_previous:hover
 
 .page h1.entry-title .fa-heart
 {
-    color: #f277ae;
+    color: #e85a4f;
 }
 
 .page h1.entry-title .fa-heart
@@ -555,7 +555,7 @@ div.pp_default .pp_previous:hover
 
 .page-desc
 {
-    color: #7e7e7e;
+    color: #8e8d8a;
     font-size: 16px;
     line-height: 36px;
     text-align: center;
@@ -860,13 +860,13 @@ div.pp_default .pp_previous:hover
 
 .grid-item 
 {
-    float: left;
+    /* float: left; */
     font-size: 0;
     line-height: 0;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    border: 15px solid white;
+    /* -webkit-box-sizing:border-box; */
+    /* border: 13px solid white; */
 }
 
 .grid-item img 
@@ -882,6 +882,7 @@ div.pp_default .pp_previous:hover
 .grid-sizer, .grid-item 
 {
     width: 400px;
+    padding: 9px;
 }
 
 .grid-item.p_two_third
@@ -1072,14 +1073,14 @@ p.custom-field-class
     line-height: 36px;
     margin-top: 60px;
     padding-bottom: 110px;
-    clear: both;    
-    color: #7e7e7e;
+    clear: both;
+    color: #e1ded4;
     text-align: center;
 }
 
 .footer a
 {
-    color: #7e7e7e;
+    color: #e1ded4;
 }
 
 .social-footer a 
@@ -1280,7 +1281,8 @@ p.custom-field-class
 
     .grid-item
     {
-        border: 10px solid white;
+        border: 2px solid white;
+        /* padding-left: 2px; */
     }  
 
     .grid-sizer, .grid-item 
