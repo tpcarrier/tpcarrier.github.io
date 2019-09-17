@@ -860,13 +860,13 @@ div.pp_default .pp_previous:hover
 
 .grid-item 
 {
-    /* float: left; */
+    float: left;
     font-size: 0;
     line-height: 0;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
-    /* -webkit-box-sizing:border-box; */
-    /* border: 13px solid white; */
+    -webkit-box-sizing:border-box;
+    border: 15px solid white;
 }
 
 .grid-item img 
@@ -882,7 +882,6 @@ div.pp_default .pp_previous:hover
 .grid-sizer, .grid-item 
 {
     width: 400px;
-    padding: 9px;
 }
 
 .grid-item.p_two_third
