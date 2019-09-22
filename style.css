@@ -521,7 +521,7 @@ div.pp_default .pp_previous:hover
     -webkit-animation: pulse 1s linear infinite;
     -moz-animation: pulse 1s linear infinite;
     -ms-animation: pulse 1s linear infinite;
-    animation: pulse 1s infinite;
+    animation: pulse 1.3s infinite;
     padding: 0 1px;
 }
 
