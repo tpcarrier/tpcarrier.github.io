@@ -203,28 +203,7 @@ company in my lifetime.
                 </a>
             </div>
                 
-                
-<div class="clear">
-<script type="text/javascript">
-    $(function() {
-        var $content = $('#content');
-        var data = {
-            rss_url: 'https://medium.com/feed/@tpcarrier'
-        };
-$.get('https://api.rss2json.com/v1/api.json', data, function(response) {
-            if (response.status == 'ok') {
-                var output = '<h1>' + response.feed.title + '</h1>';
-$.each(response.items, function(k, item) {
-                    output += '<h2><a href="' + item.link + '" >' + item.title + '</h2></a>';
-                    output += '<p>' + item.description + '</p>';
-                });
-$content.html(output);
-}
-});
-});
-</script>
-        
-       </div>
+               
                 
                 
             <div class="clear"></div>   
