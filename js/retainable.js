@@ -6596,7 +6596,7 @@
                     formatPostDate: function(t) {
                         if (t) {
                             var e = new Date(t.replace(" ", "T"));
-                            return J(e, "mmm dd yy")
+                            return J(e, "dd mmm yy")
                         }
                     }
                 },
