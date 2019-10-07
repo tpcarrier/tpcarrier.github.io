@@ -6561,9 +6561,7 @@
                                 n.preventDefault(), t.showPost(n, e.link)
                             }
                         }
-                    }, [n("h2", [t._v(t._s(e.title))])])]), n("div", {
-                        staticClass: "author mt-2"
-                    }, [t._v("Author: " + t._s(e.author))]), n("div", {
+                    }, [n("h2", [t._v(t._s(e.title))])])]),  n("div", {
                         staticClass: "excerpt",
                         domProps: {
                             innerHTML: t._s(t.formatPostDescription(e.description))
@@ -6598,7 +6596,7 @@
                     formatPostDate: function(t) {
                         if (t) {
                             var e = new Date(t.replace(" ", "T"));
-                            return J(e, "dd mmm")
+                            return J(e, "dd mmm yy")
                         }
                     }
                 },
