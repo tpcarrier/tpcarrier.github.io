@@ -6857,9 +6857,7 @@
                                 n.preventDefault(), t.showPost(n, e.link)
                             }
                         }
-                    }, [n("h2", [t._v(t._s(e.title))])])]), n("div", {
-                        staticClass: "author mt-2"
-                    }, [t._v("Author: " + t._s(e.author))]), n("div", {
+                    }, [n("h2", [t._v(t._s(e.title))])])]),  n("div", {
                         staticClass: "read-more"
                     }, [n("a", {
                         class: t.buttonClass,
