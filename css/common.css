@@ -381,7 +381,7 @@ sub
     width: 570px;
 }
 .one_third{
-    width: 276px;
+    text-align: center;
 }
 .two_third{
     width: 723px;
