@@ -1129,15 +1129,12 @@ p.custom-field-class
 
     .one_half,  .one_third,  .two_third,  .three_fourth, .one_fourth
     {
-        margin-right: 8%;
         float: left;
         position: relative;
         margin-bottom: 37px;
     }
 
-    .one_half{
-        width: 46%;
-    }
+
     .one_third{
         width: 28%;
     }
