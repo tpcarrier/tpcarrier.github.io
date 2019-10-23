@@ -596,8 +596,8 @@ div.pp_default .pp_previous:hover
 .progress_bar_title
 {
     display: inline-block;
-    width: 170px;
-    margin-right: 23px;
+    width: 225px;
+    margin-right: 10px;
 }
 
 .progress_bar_field_perecent 
