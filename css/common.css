@@ -378,7 +378,7 @@ sub
     margin-right: 0;
 }
 .one_half{
-    width: 500px;
+    width: 570px;
 }
 .one_third{
     width: 276px;
@@ -394,8 +394,7 @@ sub
 }
 .col-570
 {
-    width: 570px;
-    margin-right: 100px;
+    width: 600px;
 }
 .last.col-570
 {
