@@ -81,6 +81,8 @@ body a:hover
     max-height: 100%;
     width: auto;
     height: auto;
+    padding-top: 30px;
+
 }
 
 .header-holder
